@@ -1,0 +1,101 @@
+<body>
+
+<div class="blob b1"></div>
+<div class="blob b2"></div>
+<div class="blob b3"></div>
+
+<div class="card">
+
+<h1>🌸 Things That Make You... You 🌸</h1>
+
+<p style="font-size:16px;color:#666;">
+A few completely honest observations... 😂👇
+</p>
+
+<div style="background:#ffe4ec;padding:15px;border-radius:18px;margin:12px 0;text-align:left;">
+<h3>💛 1. Caring</h3>
+<p>
+You act like you don't care... but deep down you actually do. Whether you admit it or not, you always notice the little things. 🌼✨
+</p>
+</div>
+
+<div style="background:#fff3c4;padding:15px;border-radius:18px;margin:12px 0;text-align:left;">
+<h3>🧸 2. Cutie</h3>
+<p>
+Don't even try to argue... 😤<br><br>
+Your random expressions, reactions, and innocent face sometimes are just too cute. 😂🌸
+</p>
+</div>
+
+<div style="background:#d8f3ff;padding:15px;border-radius:18px;margin:12px 0;text-align:left;">
+<h3>😎 3. Attitude Wali</h3>
+<p>
+That attitude... 😂<br><br>
+Sometimes it's sky high, sometimes it's zero... but somehow it suits you perfectly. Never lose that confidence. ✨
+</p>
+</div>
+
+<div style="background:#ffe8b6;padding:15px;border-radius:18px;margin:12px 0;text-align:left;">
+<h3>😂 4. Ishan Paglu</h3>
+<p>
+Okay okay... one thing is very clear... 🤭<br><br>
+
+Whenever the name <b>Ishan</b> appears...
+someone suddenly becomes extra interested. 👀😂
+
+I'm not saying anything else...
+The evidence speaks for itself. 😭🌸
+</p>
+</div>
+
+<div style="background:#daf8d8;padding:15px;border-radius:18px;margin:12px 0;text-align:left;">
+<h3>🚀 5. Encouraging</h3>
+<p>
+You may not even realize it, but your words can cheer people up. Keep being that person. 🌸💛
+</p>
+</div>
+
+<div style="background:#eadcff;padding:15px;border-radius:18px;margin:12px 0;text-align:center;">
+<h2>😴 6. De-Modi-Vated 😂</h2>
+
+<p style="font-size:24px;font-weight:bold;color:#6a1b9a;">
+DE ➜ MODI ➜ VATED
+</p>
+
+<p>
+No explanation required. 🤣🌸
+</p>
+
+</div>
+
+<button onclick="location.href='memories.html'">
+🎁 One More Surprise →
+</button>
+
+</div>
+
+<script>
+
+let emoji=["🌸","🌼","✨","💛","🦋","🌺","🌷"];
+
+for(let i=0;i<50;i++){
+
+let e=document.createElement("div");
+
+e.className="flower";
+
+e.innerHTML=emoji[Math.floor(Math.random()*emoji.length)];
+
+e.style.left=Math.random()*100+"vw";
+
+e.style.fontSize=(20+Math.random()*18)+"px";
+
+e.style.animationDuration=(5+Math.random()*6)+"s";
+
+document.body.appendChild(e);
+
+}
+
+</script>
+
+</body>
